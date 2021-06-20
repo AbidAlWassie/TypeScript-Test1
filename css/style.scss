@@ -1,4 +1,7 @@
-html {
+$deeppink: #FF5873;
+$deepblue: #465fec;
+
+html{
   color-scheme: dark;
   scrollbar-color: #686868 #424242;
 }
@@ -8,6 +11,7 @@ body {
   color: #FFF;
   font-family: Arial, sans-serif;
   margin: 0;
+  // font-size: 1.5rem;
   /*display: flex;*/
   /*justify-content: center;*/
 }
@@ -15,6 +19,7 @@ body {
 /* * {
   font-size: 1rem;
 } */
+
 .container {
   margin: auto;
 }
@@ -39,6 +44,7 @@ input[type=number] {
   padding: 10px;
 }
 
+
 input[type=submit] {
   padding: 0.7rem 1.3rem;
   border: 0;
@@ -56,12 +62,12 @@ input[type=text] {
 }
 
 input.submit {
-  background: #FF5873;
+  background: $deeppink;
   color: white;
 }
 
 button {
-  background: #FF5873;
+  background: $deeppink;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -69,13 +75,9 @@ button {
 }
 
 .btn1 {
-  background: #465fec;
+  background: $deepblue;
 }
 
 .sltnone {
-  -webkit-user-select: none !important;
-     -moz-user-select: none !important;
-      -ms-user-select: none !important;
-          user-select: none !important;
+  user-select: none !important;
 }
-/*# sourceMappingURL=style.css.map */
